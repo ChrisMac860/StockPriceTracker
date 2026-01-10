@@ -1,0 +1,14 @@
+{
+  "tickers": [
+    "AMD",
+    "GOOGL",
+    "AMZN",
+    "ANET",
+    "ASML",
+    "AVGO",
+    "MSFT",
+    "SMCI",
+    "NVDA"
+  ],
+  "drop_percent": 20
+}
