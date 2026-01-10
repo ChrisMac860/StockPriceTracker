@@ -84,6 +84,7 @@ def send_telegram_message(token: str | None, chat_id: str | None, text: str) -> 
 
 
 def main() -> None:
+    send_telegram_message(token,chat_id,f"test")
     tickers, drop_percent = load_config(CONFIG_PATH)
     highs = load_highs(HIGHS_PATH)
     updated_highs = False
