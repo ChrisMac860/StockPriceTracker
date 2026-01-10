@@ -92,7 +92,7 @@ def main() -> None:
     token = os.getenv("TELEGRAM_BOT_TOKEN")
     chat_id = os.getenv("TELEGRAM_CHAT_ID")
 
-    send_telegram_message(token,chat_id,f"test")
+    #send_telegram_message(token,chat_id,f"test")
 
     for ticker in tickers:
         try:
